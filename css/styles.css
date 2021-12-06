@@ -246,6 +246,7 @@ header {
   color: var(--btn-color);
   background-color: var(--btn-background-color);
   cursor: pointer;
+  border: none;
 }
 
 /*==========  Section 1  ==========*/
@@ -476,6 +477,7 @@ Section 3  ==========*/
 .footer-social-links-container {
   width: 206px;
   margin-left: 70px;
+  margin-top: 12px;
 }
 
 .footer-info {
@@ -545,6 +547,8 @@ Section 3  ==========*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-title-color);
+  margin-top: 12px;
+  display: block;
 }
 
 .input-subscribe {
@@ -555,6 +559,7 @@ Section 3  ==========*/
   border-radius: 4px;
   background-color: inherit;
   padding-left: 16px;
+  color: #ffffff;
   outline: none;
 }
 
@@ -578,7 +583,7 @@ Section 3  ==========*/
   letter-spacing: 0.06em;
   color: var(--btn-color);
   margin-left: 12px;
-
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -878,8 +883,6 @@ Section 3  ==========*/
 }
 
 .modal-policy {
-  /* display: flex;
-  justify-content: center; */
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -887,8 +890,7 @@ Section 3  ==========*/
 .icon-check {
   width: 16px;
   height: 15px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+
   border-radius: 2px;
   border: 1px solid #212121;
   display: flex;
@@ -906,59 +908,3 @@ Section 3  ==========*/
   border-radius: 2px;
   border: none;
 }
-
-/* .form-name-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-.form-label-icon label {
-  
-}
-
-.input-area {
-  display: flex;
-  justify-content: center;
-  width: 448px;
-  height: 40px;
-  margin-bottom: 10px;
-  padding-left: 42px;
-
-  border: 1px solid rgba(33, 33, 33, 0.2);
-
-  border-radius: 4px;
-}
-
-.input-area:focus {
-  border-color: var(--accent-color);
-}
-
-.form-icon:focus {
-  fill: var(--accent-color);
-}
-
-
-
-.form-comments {
-  resize: none;
-  width: 448px;
-  height: 120px;
-  padding: 12px 16px;
-
-  border: 1px solid rgba(33, 33, 33, 0.2);
-
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.wrap-area-comments {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
